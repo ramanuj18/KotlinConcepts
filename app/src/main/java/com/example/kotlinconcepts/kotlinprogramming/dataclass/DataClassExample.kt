@@ -9,5 +9,9 @@ fun main(args: Array<String>) {
     val stu=student.copy(address="Bhopal")
     println(stu.toString())
 
+    val s =stu.copy(name = "Anuj")
+    println(s.toString())
 
+    val st=s.copy(rollno = 111)
+    println(st.toString())
 }
