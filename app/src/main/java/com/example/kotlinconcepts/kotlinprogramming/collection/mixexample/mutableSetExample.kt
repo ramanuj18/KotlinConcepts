@@ -8,8 +8,15 @@ fun setExample(){
     println(set1)
 }
 
+fun setExample2(){
+    var set= mutableSetOf<Int>(7,8,90)
+    set.add(67)
+    println(set.reversed())     //reversed() returns collection object but can't update existing collection object.
+}
+
 fun main(args: Array<String>) {
         setExample()
+        setExample2()
 }
 
 

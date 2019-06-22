@@ -33,7 +33,6 @@ fun mutableList2(){
     listOfCity.add("Gwalior")
     listOfCity.add("Ujjain")
 
-    
     for (it in listOfCity){
         println(it)
     }
@@ -46,6 +45,6 @@ fun mutableList2(){
 }
 
 fun main(args: Array<String>) {
-    //mutableList1()
+     mutableList1()
      mutableList2()
 }

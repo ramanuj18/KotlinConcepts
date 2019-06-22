@@ -21,6 +21,11 @@ fun hashMapOf1(){
 
     println(hashMap)
 }
+fun hashMap2(){
+    var hashMap= hashMapOf<String,Int>()
+    hashMap["rama"] = 1
+
+}
 
 fun mutableMapOf1(){
 
