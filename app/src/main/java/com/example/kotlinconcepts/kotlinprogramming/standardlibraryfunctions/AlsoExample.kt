@@ -4,6 +4,8 @@ package com.example.kotlinconcepts.kotlinprogramming.standardlibraryfunctions
 //Unlike let, it returns the original object instead of any new return data. Hence the return data has always the same type.
 //Like let, also uses it too.
 
+
+/*link for standard library function : https://kotlinlang.org/docs/reference/scope-functions.html*/
 fun main(args: Array<String>) {
 
     var a=5
@@ -18,6 +20,8 @@ fun main(args: Array<String>) {
     data class Person1(var name: String, var tutorial : String)
     var person1= Person1("Anupam", "Kotlin")
 
-    person1.also { obj->obj.name}           //return original object
+    person1.also { obj->obj.name="Anuj"
+    }           //return original object
+    println(person1.name)
 
 }

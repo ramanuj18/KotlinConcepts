@@ -31,4 +31,10 @@ fun main(args: Array<String>) {
     nm=null
     nm?.let { println(it) }
 
+
+    data class Person1(var name: String, var tutorial : String)
+    var person1= Person1("Anupam", "Kotlin")
+
+    person1.let { obj->obj.name="Anuj" }
+    println(person1.name)
 }
